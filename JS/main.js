@@ -1,3 +1,18 @@
+// Stampare a schermo un messaggio all’interno di un h1, 
+// utilizzando i data
+
+const {createApp} = Vue
+createApp({
+    data(){
+        return{
+            testo: "Hello World!"
+            // ,
+            // immagine: "https://www.payplug.com/hubfs/Banque%20images_featured.png"
+            // così non funzia
+        }
+    }
+}).mount('#app')
+
 
 
 
